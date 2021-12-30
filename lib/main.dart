@@ -1,4 +1,4 @@
-import 'package:explore_lottie_flutter/pages/homepages.dart';
+import 'package:explore_lottie_flutter/splash.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Lottie Flutter',
       theme: ThemeData(primarySwatch: Colors.indigo),
-      home: const HomePage(),
+      home: const SplashPage(),
     );
   }
 }

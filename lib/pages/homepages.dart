@@ -35,6 +35,7 @@ class _HomePageState extends State<HomePage>
       appBar: AppBar(
         title: const Text("Lottiepy"),
       ),
+      drawer: const Drawer(),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
